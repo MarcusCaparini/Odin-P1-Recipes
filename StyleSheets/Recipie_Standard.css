@@ -1,5 +1,18 @@
 /*This is the standard stylesheet for recipies.*/
 * {
-background-color: rgb(0,0,100);
+	background-color: rgb(255, 255, 255);
+	color: rgb(0,0,0);
+	font-family: Purisa,"Z003", "Times New Romans";
+	font-size: 150%;
+}
+/*Okay, so the font family actually made it look super nice.*/
+/*I'll be sure to mess around with that more when I'm 
+ *using more specific selectors.*/
+h3 {
+	font-family: "Times New Romans";
+	font-weight: 500
+}
 
+ol, ul {
+	/*font-size: 10px;*/
 }
